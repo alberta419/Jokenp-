@@ -84,8 +84,8 @@ while opcao != 5:
             partidas_realizadas = partidas_realizadas + 1
 
     elif opcao == 4:
-        percentual_vitorias_p1 = (cont_p1 / partidas_realizadas) / 100
-        percentual_vitorias_p2 = (cont_p2 / partidas_realizadas) / 100
+        percentual_vitorias_p1 = (cont_p1 / partidas_realizadas) * 100
+        percentual_vitorias_p2 = (cont_p2 / partidas_realizadas) * 100
         print("Aqui estão as estatísticas:\n")
         print("\nPercentual de vitórias do Jogador 1: ", percentual_vitorias_p1)
         print("\nPercentual de vitórias do Jogador 2: ", percentual_vitorias_p2)
